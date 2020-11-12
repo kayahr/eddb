@@ -1,0 +1,8 @@
+id,name,updated_at,government_id,government,allegiance_id,allegiance,home_system_id,is_player_faction
+2278,"Alliance of Imango",1546702078,48,Confederacy,3,Federation,,0
+75068,"The Canonn",1475489397,,,,,,1
+14271,Canonn,1546705332,80,Cooperative,4,Independent,18454,1
+75798,"Canonn Gnosis Division",1591523717,80,Cooperative,4,Independent,18454,1
+75243,"Canonn Deep Space Research",1546700684,80,Cooperative,4,Independent,1514041,1
+74896,"Justicars of Helios",1492028528,,,,,,1
+74868,"Crimson Mining and Salvage",1492995640,64,Corporate,,,,1

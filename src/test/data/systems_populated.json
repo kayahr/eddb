@@ -1,0 +1,1519 @@
+[
+    {
+        "id": 432,
+        "edsm_id": 12523,
+        "name": "Achenar",
+        "x": 67.5,
+        "y": -119.46875,
+        "z": 24.84375,
+        "population": 16380047759,
+        "is_populated": true,
+        "government_id": 144,
+        "government": "Patronage",
+        "allegiance_id": 2,
+        "allegiance": "Empire",
+        "states": [
+            {
+                "id": 80,
+                "name": "None"
+            }
+        ],
+        "security_id": 48,
+        "security": "High",
+        "primary_economy_id": 6,
+        "primary_economy": "Refinery",
+        "power": "Arissa Lavigny-Duval",
+        "power_state": "Exploited",
+        "power_state_id": 32,
+        "needs_permit": true,
+        "updated_at": 1604113193,
+        "simbad_ref": "HD 10144",
+        "controlling_minor_faction_id": 12212,
+        "controlling_minor_faction": "Achenar Empire League",
+        "reserve_type_id": 5,
+        "reserve_type": "Depleted",
+        "minor_faction_presences": [
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 12212,
+                "influence": 35.8358,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 14079,
+                "influence": 12.6126,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 14080,
+                "influence": 11.6116,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 14081,
+                "influence": 13.013,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 14082,
+                "influence": 15.1151,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 4030,
+                "influence": 11.8118,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            }
+        ],
+        "ed_system_address": 164098653
+    },
+    {
+        "id": 11611,
+        "edsm_id": 18,
+        "name": "Lave",
+        "x": 75.75,
+        "y": 48.75,
+        "z": 70.75,
+        "population": 25000000000,
+        "is_populated": true,
+        "government_id": 64,
+        "government": "Corporate",
+        "allegiance_id": 4,
+        "allegiance": "Independent",
+        "states": [
+            {
+                "id": 80,
+                "name": "None"
+            }
+        ],
+        "security_id": 48,
+        "security": "High",
+        "primary_economy_id": 1,
+        "primary_economy": "Agriculture",
+        "power": "Edmund Mahon",
+        "power_state": "Exploited",
+        "power_state_id": 32,
+        "needs_permit": false,
+        "updated_at": 1604111974,
+        "simbad_ref": "",
+        "controlling_minor_faction_id": 56909,
+        "controlling_minor_faction": "Lave Radio Network",
+        "reserve_type_id": 4,
+        "reserve_type": "Low",
+        "minor_faction_presences": [
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 4171,
+                "influence": 7.9317,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 47873,
+                "influence": 8.9357,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 56906,
+                "influence": 4.9197,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 3,
+                "minor_faction_id": 56907,
+                "influence": 10.0402,
+                "active_states": [
+                    {
+                        "id": 32,
+                        "name": "Bust"
+                    },
+                    {
+                        "id": 69,
+                        "name": "Lockdown"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 105,
+                        "name": "Natural Disaster"
+                    }
+                ]
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 56908,
+                "influence": 1.004,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 56909,
+                "influence": 61.4458,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 3923,
+                "influence": 5.7229,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            }
+        ],
+        "ed_system_address": 633742594786
+    },
+    {
+        "id": 17072,
+        "edsm_id": 27,
+        "name": "Sol",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "population": 22780871769,
+        "is_populated": true,
+        "government_id": 96,
+        "government": "Democracy",
+        "allegiance_id": 3,
+        "allegiance": "Federation",
+        "states": [
+            {
+                "id": 80,
+                "name": "None"
+            }
+        ],
+        "security_id": 48,
+        "security": "High",
+        "primary_economy_id": 6,
+        "primary_economy": "Refinery",
+        "power": "Zachary Hudson",
+        "power_state": "Control",
+        "power_state_id": 16,
+        "needs_permit": true,
+        "updated_at": 1604112426,
+        "simbad_ref": "",
+        "controlling_minor_faction_id": 592,
+        "controlling_minor_faction": "Mother Gaia",
+        "reserve_type_id": 3,
+        "reserve_type": "Common",
+        "minor_faction_presences": [
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 588,
+                "influence": 13.5542,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 589,
+                "influence": 20.2811,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 591,
+                "influence": 7.7309,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 592,
+                "influence": 42.8715,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 593,
+                "influence": 8.7349,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 75779,
+                "influence": 6.8273,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            }
+        ],
+        "ed_system_address": 10477373803
+    },
+    {
+        "id": 16827,
+        "edsm_id": 4345,
+        "name": "Shinrarta Dezhra",
+        "x": 55.71875,
+        "y": 17.59375,
+        "z": 27.15625,
+        "population": 85206935,
+        "is_populated": true,
+        "government_id": 96,
+        "government": "Democracy",
+        "allegiance_id": 7,
+        "allegiance": "Pilots Federation",
+        "states": [
+            {
+                "id": 80,
+                "name": "None"
+            }
+        ],
+        "security_id": 48,
+        "security": "High",
+        "primary_economy_id": 3,
+        "primary_economy": "High Tech",
+        "power": null,
+        "power_state": null,
+        "power_state_id": null,
+        "needs_permit": true,
+        "updated_at": 1604113931,
+        "simbad_ref": "",
+        "controlling_minor_faction_id": 76748,
+        "controlling_minor_faction": "Pilots' Federation Local Branch",
+        "reserve_type_id": 3,
+        "reserve_type": "Common",
+        "minor_faction_presences": [
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 40000,
+                "influence": 26.8583,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 69949,
+                "influence": 16.8484,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 41917,
+                "influence": 42.22,
+                "active_states": [
+                    {
+                        "id": 16,
+                        "name": "Boom"
+                    },
+                    {
+                        "id": 67,
+                        "name": "Expansion"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 61035,
+                "influence": 14.0733,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            }
+        ],
+        "ed_system_address": 3932277478106
+    },
+    {
+        "id": 18454,
+        "edsm_id": 16714,
+        "name": "Varati",
+        "x": -178.65625,
+        "y": 77.125,
+        "z": -87.125,
+        "population": 9067138,
+        "is_populated": true,
+        "government_id": 80,
+        "government": "Cooperative",
+        "allegiance_id": 4,
+        "allegiance": "Independent",
+        "states": [
+            {
+                "id": 16,
+                "name": "Boom"
+            },
+            {
+                "id": 66,
+                "name": "Civil Liberty"
+            }
+        ],
+        "security_id": 32,
+        "security": "Medium",
+        "primary_economy_id": 4,
+        "primary_economy": "Industrial",
+        "power": null,
+        "power_state": null,
+        "power_state_id": null,
+        "needs_permit": false,
+        "updated_at": 1604113184,
+        "simbad_ref": "",
+        "controlling_minor_faction_id": 14271,
+        "controlling_minor_faction": "Canonn",
+        "reserve_type_id": 1,
+        "reserve_type": "Pristine",
+        "minor_faction_presences": [
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 14267,
+                "influence": 8.6871,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 14268,
+                "influence": 5.3307,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 14269,
+                "influence": 7.1076,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 14270,
+                "influence": 0.9872,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 1,
+                "minor_faction_id": 14271,
+                "influence": 77.8875,
+                "active_states": [
+                    {
+                        "id": 16,
+                        "name": "Boom"
+                    },
+                    {
+                        "id": 66,
+                        "name": "Civil Liberty"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 67,
+                        "name": "Expansion"
+                    }
+                ]
+            }
+        ],
+        "ed_system_address": 1694071015779
+    },
+    {
+        "id": 9924,
+        "edsm_id": 15775,
+        "name": "Ix",
+        "x": -65.21875,
+        "y": 7.75,
+        "z": -111.03125,
+        "population": 13814556,
+        "is_populated": true,
+        "government_id": 64,
+        "government": "Corporate",
+        "allegiance_id": 3,
+        "allegiance": "Federation",
+        "states": [
+            {
+                "id": 16,
+                "name": "Boom"
+            },
+            {
+                "id": 66,
+                "name": "Civil Liberty"
+            }
+        ],
+        "security_id": 32,
+        "security": "Medium",
+        "primary_economy_id": 3,
+        "primary_economy": "High Tech",
+        "power": "Li Yong-Rui",
+        "power_state": "Control",
+        "power_state_id": 16,
+        "needs_permit": false,
+        "updated_at": 1604112139,
+        "simbad_ref": "",
+        "controlling_minor_faction_id": 23613,
+        "controlling_minor_faction": "Ix Purple Comms Corp.",
+        "reserve_type_id": 1,
+        "reserve_type": "Pristine",
+        "minor_faction_presences": [
+            {
+                "happiness_id": 1,
+                "minor_faction_id": 23613,
+                "influence": 69.8381,
+                "active_states": [
+                    {
+                        "id": 16,
+                        "name": "Boom"
+                    },
+                    {
+                        "id": 66,
+                        "name": "Civil Liberty"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 23614,
+                "influence": 3.4413,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 23615,
+                "influence": 4.0486,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 23616,
+                "influence": 3.4413,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 1,
+                "minor_faction_id": 74991,
+                "influence": 8.4008,
+                "active_states": [
+                    {
+                        "id": 16,
+                        "name": "Boom"
+                    },
+                    {
+                        "id": 65,
+                        "name": "Election"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 29014,
+                "influence": 8.4008,
+                "active_states": [
+                    {
+                        "id": 65,
+                        "name": "Election"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 23617,
+                "influence": 2.4291,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            }
+        ],
+        "ed_system_address": 2381282543963
+    },
+    {
+        "id": 718,
+        "edsm_id": 8218,
+        "name": "Alioth",
+        "x": -33.65625,
+        "y": 72.46875,
+        "z": -20.65625,
+        "population": 14900071500,
+        "is_populated": true,
+        "government_id": 96,
+        "government": "Democracy",
+        "allegiance_id": 1,
+        "allegiance": "Alliance",
+        "states": [
+            {
+                "id": 80,
+                "name": "None"
+            }
+        ],
+        "security_id": 48,
+        "security": "High",
+        "primary_economy_id": 3,
+        "primary_economy": "High Tech",
+        "power": "Edmund Mahon",
+        "power_state": "Control",
+        "power_state_id": 16,
+        "needs_permit": true,
+        "updated_at": 1604109047,
+        "simbad_ref": "Alioth",
+        "controlling_minor_faction_id": 1082,
+        "controlling_minor_faction": "Alioth Independents",
+        "reserve_type_id": 5,
+        "reserve_type": "Depleted",
+        "minor_faction_presences": [
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 1083,
+                "influence": 6.0362,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 1084,
+                "influence": 11.4688,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 1085,
+                "influence": 14.2857,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 1086,
+                "influence": 5.4326,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 75148,
+                "influence": 6.4386,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 1082,
+                "influence": 56.338,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            }
+        ],
+        "ed_system_address": 1109989017963
+    },
+    {
+        "id": 17715,
+        "edsm_id": 4607,
+        "name": "Thraskias",
+        "x": 46.71875,
+        "y": 46.625,
+        "z": -1.65625,
+        "population": 506933,
+        "is_populated": true,
+        "government_id": 64,
+        "government": "Corporate",
+        "allegiance_id": 3,
+        "allegiance": "Federation",
+        "states": [
+            {
+                "id": 101,
+                "name": "Investment"
+            }
+        ],
+        "security_id": 16,
+        "security": "Low",
+        "primary_economy_id": 9,
+        "primary_economy": "Tourism",
+        "power": null,
+        "power_state": null,
+        "power_state_id": null,
+        "needs_permit": false,
+        "updated_at": 1604096355,
+        "simbad_ref": "",
+        "controlling_minor_faction_id": 45221,
+        "controlling_minor_faction": "Thraskias Crimson United PLC",
+        "reserve_type_id": null,
+        "reserve_type": null,
+        "minor_faction_presences": [
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 45221,
+                "influence": 43.9439,
+                "active_states": [
+                    {
+                        "id": 101,
+                        "name": "Investment"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 81,
+                        "name": "Pirate Attack"
+                    }
+                ]
+            },
+            {
+                "happiness_id": 3,
+                "minor_faction_id": 70835,
+                "influence": 9.1091,
+                "active_states": [
+                    {
+                        "id": 32,
+                        "name": "Bust"
+                    },
+                    {
+                        "id": 65,
+                        "name": "Election"
+                    },
+                    {
+                        "id": 69,
+                        "name": "Lockdown"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 104,
+                        "name": "Infrastructure Failure"
+                    }
+                ]
+            },
+            {
+                "happiness_id": 3,
+                "minor_faction_id": 70837,
+                "influence": 5.1051,
+                "active_states": [
+                    {
+                        "id": 37,
+                        "name": "Famine"
+                    },
+                    {
+                        "id": 69,
+                        "name": "Lockdown"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 104,
+                        "name": "Infrastructure Failure"
+                    }
+                ]
+            },
+            {
+                "happiness_id": 3,
+                "minor_faction_id": 18855,
+                "influence": 5.1051,
+                "active_states": [
+                    {
+                        "id": 37,
+                        "name": "Famine"
+                    },
+                    {
+                        "id": 65,
+                        "name": "Election"
+                    },
+                    {
+                        "id": 69,
+                        "name": "Lockdown"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 104,
+                        "name": "Infrastructure Failure"
+                    }
+                ]
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 34421,
+                "influence": 13.3133,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 81,
+                        "name": "Pirate Attack"
+                    }
+                ]
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 5712,
+                "influence": 8.6086,
+                "active_states": [
+                    {
+                        "id": 48,
+                        "name": "Civil Unrest"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 73,
+                        "name": "War"
+                    },
+                    {
+                        "id": 104,
+                        "name": "Infrastructure Failure"
+                    }
+                ]
+            },
+            {
+                "happiness_id": 3,
+                "minor_faction_id": 70838,
+                "influence": 7.1071,
+                "active_states": [
+                    {
+                        "id": 69,
+                        "name": "Lockdown"
+                    }
+                ],
+                "pending_states": [
+                    {
+                        "id": 32,
+                        "name": "Bust"
+                    }
+                ],
+                "recovering_states": [
+                    {
+                        "id": 104,
+                        "name": "Infrastructure Failure"
+                    }
+                ]
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 77112,
+                "influence": 7.7077,
+                "active_states": [
+                    {
+                        "id": 66,
+                        "name": "Civil Liberty"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 73,
+                        "name": "War"
+                    }
+                ]
+            }
+        ],
+        "ed_system_address": 908553392850
+    },
+    {
+        "id": 7176,
+        "edsm_id": null,
+        "name": "HIP 23395",
+        "x": -7.34375,
+        "y": -20.0625,
+        "z": -130.71875,
+        "population": 1288145124,
+        "is_populated": true,
+        "government_id": 64,
+        "government": "Corporate",
+        "allegiance_id": 3,
+        "allegiance": "Federation",
+        "states": [
+            {
+                "id": 67,
+                "name": "Expansion"
+            }
+        ],
+        "security_id": 48,
+        "security": "High",
+        "primary_economy_id": 1,
+        "primary_economy": "Agriculture",
+        "power": "Li Yong-Rui",
+        "power_state": "Control",
+        "power_state_id": 16,
+        "needs_permit": false,
+        "updated_at": 1604779787,
+        "simbad_ref": "",
+        "controlling_minor_faction_id": 76107,
+        "controlling_minor_faction": "Sirius Special Forces",
+        "reserve_type_id": 1,
+        "reserve_type": "Pristine",
+        "minor_faction_presences": [
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 7219,
+                "influence": 13.3005,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 20652,
+                "influence": 5.0246,
+                "active_states": [
+                    {
+                        "id": 67,
+                        "name": "Expansion"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 7220,
+                "influence": 2.6601,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 7221,
+                "influence": 2.9557,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 7222,
+                "influence": 3.6453,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 7223,
+                "influence": 5.6158,
+                "active_states": [
+                    {
+                        "id": 80,
+                        "name": "None"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 2,
+                "minor_faction_id": 76107,
+                "influence": 66.798,
+                "active_states": [
+                    {
+                        "id": 67,
+                        "name": "Expansion"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            }
+        ],
+        "ed_system_address": 1316147431771
+    },
+    {
+        "id": 1998684,
+        "edsm_id": 1418617,
+        "name": "HIP 22460",
+        "x": -41.3125,
+        "y": -58.96875,
+        "z": -354.78125,
+        "population": 0,
+        "is_populated": true,
+        "government_id": null,
+        "government": null,
+        "allegiance_id": null,
+        "allegiance": null,
+        "states": [],
+        "security_id": 16,
+        "security": "Low",
+        "primary_economy_id": 10,
+        "primary_economy": "None",
+        "power": null,
+        "power_state": null,
+        "power_state_id": null,
+        "needs_permit": true,
+        "updated_at": 1506894523,
+        "simbad_ref": "",
+        "controlling_minor_faction_id": null,
+        "controlling_minor_faction": null,
+        "reserve_type_id": null,
+        "reserve_type": null,
+        "minor_faction_presences": [
+            {
+                "happiness_id": null,
+                "minor_faction_id": 75099,
+                "influence": 100,
+                "active_states": [],
+                "pending_states": [],
+                "recovering_states": []
+            }
+        ],
+        "ed_system_address": null
+    },
+    {
+        "id": 11969,
+        "edsm_id": 4708,
+        "name": "LHS 2819",
+        "x": -30.5,
+        "y": 38.5625,
+        "z": -13.4375,
+        "population": 500,
+        "is_populated": true,
+        "government_id": 48,
+        "government": "Confederacy",
+        "allegiance_id": 1,
+        "allegiance": "Alliance",
+        "states": [
+            {
+                "id": 16,
+                "name": "Boom"
+            },
+            {
+                "id": 66,
+                "name": "Civil Liberty"
+            }
+        ],
+        "security_id": 16,
+        "security": "Low",
+        "primary_economy_id": 11,
+        "primary_economy": "Colony",
+        "power": null,
+        "power_state": null,
+        "power_state_id": null,
+        "needs_permit": false,
+        "updated_at": 1604768790,
+        "simbad_ref": "LHS 2819",
+        "controlling_minor_faction_id": 27536,
+        "controlling_minor_faction": "Terran Colonial Forces",
+        "reserve_type_id": null,
+        "reserve_type": null,
+        "minor_faction_presences": [
+            {
+                "happiness_id": 3,
+                "minor_faction_id": 8634,
+                "influence": 4.7,
+                "active_states": [
+                    {
+                        "id": 32,
+                        "name": "Bust"
+                    },
+                    {
+                        "id": 69,
+                        "name": "Lockdown"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 104,
+                        "name": "Infrastructure Failure"
+                    }
+                ]
+            },
+            {
+                "happiness_id": 3,
+                "minor_faction_id": 49579,
+                "influence": 17,
+                "active_states": [
+                    {
+                        "id": 69,
+                        "name": "Lockdown"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 32,
+                        "name": "Bust"
+                    },
+                    {
+                        "id": 65,
+                        "name": "Election"
+                    },
+                    {
+                        "id": 104,
+                        "name": "Infrastructure Failure"
+                    }
+                ]
+            },
+            {
+                "happiness_id": 3,
+                "minor_faction_id": 29666,
+                "influence": 7.5,
+                "active_states": [
+                    {
+                        "id": 32,
+                        "name": "Bust"
+                    },
+                    {
+                        "id": 69,
+                        "name": "Lockdown"
+                    },
+                    {
+                        "id": 104,
+                        "name": "Infrastructure Failure"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 3,
+                "minor_faction_id": 21015,
+                "influence": 13.9,
+                "active_states": [
+                    {
+                        "id": 37,
+                        "name": "Famine"
+                    },
+                    {
+                        "id": 69,
+                        "name": "Lockdown"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 104,
+                        "name": "Infrastructure Failure"
+                    }
+                ]
+            },
+            {
+                "happiness_id": 3,
+                "minor_faction_id": 29685,
+                "influence": 6.8,
+                "active_states": [
+                    {
+                        "id": 32,
+                        "name": "Bust"
+                    },
+                    {
+                        "id": 69,
+                        "name": "Lockdown"
+                    },
+                    {
+                        "id": 104,
+                        "name": "Infrastructure Failure"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": 1,
+                "minor_faction_id": 27536,
+                "influence": 39.6,
+                "active_states": [
+                    {
+                        "id": 16,
+                        "name": "Boom"
+                    },
+                    {
+                        "id": 66,
+                        "name": "Civil Liberty"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 104,
+                        "name": "Infrastructure Failure"
+                    }
+                ]
+            },
+            {
+                "happiness_id": 3,
+                "minor_faction_id": 75826,
+                "influence": 10.5,
+                "active_states": [
+                    {
+                        "id": 32,
+                        "name": "Bust"
+                    },
+                    {
+                        "id": 69,
+                        "name": "Lockdown"
+                    }
+                ],
+                "pending_states": [],
+                "recovering_states": [
+                    {
+                        "id": 65,
+                        "name": "Election"
+                    },
+                    {
+                        "id": 104,
+                        "name": "Infrastructure Failure"
+                    }
+                ]
+            }
+        ],
+        "ed_system_address": 7267487524257
+    },
+    {
+        "id": 3023,
+        "edsm_id": 8971,
+        "name": "CD-44 1695",
+        "x": 67.875,
+        "y": -61.84375,
+        "z": -26.40625,
+        "population": 5196795,
+        "is_populated": true,
+        "government_id": 96,
+        "government": "Democracy",
+        "allegiance_id": 3,
+        "allegiance": "Federation",
+        "states": [],
+        "security_id": null,
+        "security": null,
+        "primary_economy_id": null,
+        "primary_economy": null,
+        "power": null,
+        "power_state": "Contested",
+        "power_state_id": 48,
+        "needs_permit": true,
+        "updated_at": 1593336929,
+        "simbad_ref": "CD-44 1695",
+        "controlling_minor_faction_id": 38748,
+        "controlling_minor_faction": "Movement for CD-44 1695 Values Party",
+        "reserve_type_id": null,
+        "reserve_type": null,
+        "minor_faction_presences": [
+            {
+                "happiness_id": null,
+                "minor_faction_id": 38748,
+                "influence": null,
+                "active_states": [],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": null,
+                "minor_faction_id": 38749,
+                "influence": null,
+                "active_states": [],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": null,
+                "minor_faction_id": 38750,
+                "influence": null,
+                "active_states": [],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": null,
+                "minor_faction_id": 38751,
+                "influence": null,
+                "active_states": [],
+                "pending_states": [],
+                "recovering_states": []
+            },
+            {
+                "happiness_id": null,
+                "minor_faction_id": 38752,
+                "influence": null,
+                "active_states": [],
+                "pending_states": [],
+                "recovering_states": []
+            }
+        ],
+        "ed_system_address": 358864622282
+    },
+    {
+        "id": 15069,
+        "edsm_id": 72910,
+        "name": "Col 285 Sector YU-F c11-1",
+        "x": 98.53125,
+        "y": -92.625,
+        "z": 97.625,
+        "population": 0,
+        "is_populated": true,
+        "government_id": 208,
+        "government": "Prison",
+        "allegiance_id": 4,
+        "allegiance": "Independent",
+        "states": [
+            {
+                "id": 80,
+                "name": "None"
+            }
+        ],
+        "security_id": 48,
+        "security": "High",
+        "primary_economy_id": 2,
+        "primary_economy": "Extraction",
+        "power": null,
+        "power_state": null,
+        "power_state_id": null,
+        "needs_permit": false,
+        "updated_at": 1604803819,
+        "simbad_ref": "",
+        "controlling_minor_faction_id": 75876,
+        "controlling_minor_faction": "Independent Detention Foundation",
+        "reserve_type_id": null,
+        "reserve_type": null,
+        "minor_faction_presences": [],
+        "ed_system_address": 358931698410
+    }
+]

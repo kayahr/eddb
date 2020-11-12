@@ -1,0 +1,79 @@
+[
+    {
+        "id": 2278,
+        "name": "Alliance of Imango",
+        "updated_at": 1546702078,
+        "government_id": 48,
+        "government": "Confederacy",
+        "allegiance_id": 3,
+        "allegiance": "Federation",
+        "home_system_id": null,
+        "is_player_faction": false
+    },
+    {
+        "id": 75068,
+        "name": "The Canonn",
+        "updated_at": 1475489397,
+        "government_id": null,
+        "government": null,
+        "allegiance_id": null,
+        "allegiance": null,
+        "home_system_id": null,
+        "is_player_faction": true
+    },
+    {
+        "id": 14271,
+        "name": "Canonn",
+        "updated_at": 1546705332,
+        "government_id": 80,
+        "government": "Cooperative",
+        "allegiance_id": 4,
+        "allegiance": "Independent",
+        "home_system_id": 18454,
+        "is_player_faction": true
+    },
+    {
+        "id": 75798,
+        "name": "Canonn Gnosis Division",
+        "updated_at": 1591523717,
+        "government_id": 80,
+        "government": "Cooperative",
+        "allegiance_id": 4,
+        "allegiance": "Independent",
+        "home_system_id": 18454,
+        "is_player_faction": true
+    },
+    {
+        "id": 75243,
+        "name": "Canonn Deep Space Research",
+        "updated_at": 1546700684,
+        "government_id": 80,
+        "government": "Cooperative",
+        "allegiance_id": 4,
+        "allegiance": "Independent",
+        "home_system_id": 1514041,
+        "is_player_faction": true
+    },
+    {
+        "id": 74896,
+        "name": "Justicars of Helios",
+        "updated_at": 1492028528,
+        "government_id": null,
+        "government": null,
+        "allegiance_id": null,
+        "allegiance": null,
+        "home_system_id": null,
+        "is_player_faction": true
+    },
+    {
+        "id": 74868,
+        "name": "Crimson Mining and Salvage",
+        "updated_at": 1492995640,
+        "government_id": 64,
+        "government": "Corporate",
+        "allegiance_id": null,
+        "allegiance": null,
+        "home_system_id": null,
+        "is_player_faction": true
+    }
+]

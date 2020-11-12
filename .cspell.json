@@ -1,0 +1,47 @@
+{
+    "version": "0.1",
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/master/cspell.schema.json",
+    "enabledLanguageIds": [
+        "markdown",
+        "typescript"
+    ],
+    "ignorePaths": [
+        "node_modules",
+        "coverage",
+        "doc/api/**",
+        "data/**",
+        "src/sandbox/**",
+        "src/test/data/**",
+        "package-lock.json",
+        "git",
+        "lib",
+        "dist",
+        "*.log",
+        "*.tgz"
+    ],
+    "words": [
+        "blackmarket",
+        "Canonn",
+        "deref",
+        "Deserializable",
+        "Deserializes",
+        "downlevel",
+        "Dumbfire",
+        "EDDB's",
+        "edsm",
+        "finalizer",
+        "jsonl",
+        "kayahr",
+        "kaylib",
+        "papaparse",
+        "readline",
+        "Reimer",
+        "Serializable",
+        "simbad",
+        "tslib",
+        "typedoc",
+        "Unregisters",
+        "Varati"
+    ],
+    "language": "en"
+}
