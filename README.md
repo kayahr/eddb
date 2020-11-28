@@ -1,16 +1,7 @@
 EDDB
 ====
 
-This library provides classes for the data published on the Elite Dangerous Database (EDDB) and provides methods to
-import and export the data in the formats specified by EDDB.
-
-The library does not download the data from EDDB. You have to do this yourself and then use this library to parse the
-data.
-
-Pretty much all classes in this library are split into the actual entity (like a station, system or commodity) and
-a collection of these entities (stations, systems, commodities, ...). The entity class provides all the data for
-a specific station while collection classes can be used to retrieve all entities or a specific entity by ID or name.
-
+This library provides typescript types and utility functions for the Elite Dangerous Database ([EDDB]) API v6.0. It is primarily intended for Node.js and Electron applications to read EDDB data files but it also works in a web browser.
 
 Usage
 -----
@@ -21,81 +12,67 @@ First install the library as a dependency in your project:
 npm install @kayahr/eddb
 ```
 
-Then download the data dumps from EDDB and use this library to parse and access it. Here is a verbose example which
-reads all available data. Use from it what you need:
+Then download the data dumps from EDDB and use this library to read them.
+
+Working with JSON files
+-----------------------
+
+JSON files (like `commodities.json` and `modules.json`) do not need any helper functions. Simply parse the JSON files and then cast it to the corresponding type provided by this library:
+
+```typescript
+import * as fs from "fs";
+import * as eddb from "@kayahr/eddb";
+
+const json = fs.readFileSync("commodities.json").toString();
+const commodities = JSON.parse(json) as eddb.Commodities;
+```
+
+Working with CSV files
+----------------------
+
+For CSV files (like `listings.csv`, `factions.csv`, `systems.csv` and `systems_recently.csv`) this library provides utility functions to read or stream them. As input you have to provide an async iterable for reading the lines. In Node.js/Electron it works like this:
 
 ```typescript
 import * as fs from "fs";
 import * as readline from "readline";
-
 import * as eddb from "@kayahr/eddb";
 
-void (async () => {
-    // Define the entity factories which gathers all the entities referenced in the EDDB files so they can be
-    // iterated separately
-    const factories = eddb.createFactories();
-
-    // Read modules
-    const modulesJSON = JSON.parse(fs.readFileSync("data/modules.json").toString()) as eddb.ModulesJSON;
-    const modules = eddb.Modules.fromJSON(modulesJSON, factories);
-    console.log("Number of modules:", modules.getAll().length);
-
-    // Read commodities
-    const commoditiesJSON = JSON.parse(fs.readFileSync("data/commodities.json").toString()) as eddb.CommoditiesJSON;
-    const commodities = eddb.Commodities.fromJSON(commoditiesJSON, factories);
-    console.log("Number of commodities:", commodities.getAll().length);
-
-    // Read systems
-    const systemsJSONL = readline.createInterface({ input: fs.createReadStream("data/systems_populated.jsonl") });
-    const systems = await eddb.Systems.fromJSONL(systemsJSONL, factories);
-    console.log("Number of systems:", systems.getAll().length);
-
-    // Read factions
-    const factionsCSV = fs.createReadStream("data/factions.csv");
-    const factions = await eddb.Factions.fromCSV(factionsCSV, factories);
-    console.log("Number of factions:", factions.getAll().length);
-
-    // Read attractions
-    const attractionsJSONL = readline.createInterface({ input: fs.createReadStream("data/attractions.jsonl") });
-    const attractions = await eddb.Attractions.fromJSONL(attractionsJSONL, factories);
-    console.log("Number of attractions:", attractions.getAll().length);
-
-    // Read stations
-    const stationsJSONL = readline.createInterface({ input: fs.createReadStream("data/stations.jsonl") });
-    const stations = await eddb.Stations.fromJSONL(stationsJSONL, factories);
-    console.log("Number of stations:", stations.getAll().length);
-
-    // Read price listings
-    const pricesCSV = fs.createReadStream("data/listings.csv");
-    const prices = await eddb.Prices.fromCSV(pricesCSV);
-    console.log("Number of price listings:", prices.getAll().length);
-
-    // Show numbers of entities read on-the-fly while parsing the other files
-    console.log("Number of allegiances:", factories.allegiances.getAll().length);
-    console.log("Number of attraction bodies:", factories.attractionBodies.getAll().length);
-    console.log("Number of attraction groups:", factories.attractionGroups.getAll().length);
-    console.log("Number of attraction layouts:", factories.attractionLayouts.getAll().length);
-    console.log("Number of beacon types", factories.beaconTypes.getAll().length);
-    console.log("Number of commodity categories", factories.commodityCategories.getAll().length);
-    console.log("Number of economies", factories.economies.getAll().length);
-    console.log("Number of governments", factories.governments.getAll().length);
-    console.log("Number of installation types", factories.installationTypes.getAll().length);
-    console.log("Number of module categories", factories.moduleCategories.getAll().length);
-    console.log("Number of module groups", factories.moduleGroups.getAll().length);
-    console.log("Number of power states", factories.powerStates.getAll().length);
-    console.log("Number of races", factories.races.getAll().length);
-    console.log("Number of reserve types", factories.reserveTypes.getAll().length);
-    console.log("Number of securities", factories.securities.getAll().length);
-    console.log("Number of settlement securities", factories.settlementSecurities.getAll().length);
-    console.log("Number of settlement sizes", factories.settlementSizes.getAll().length);
-    console.log("Number of settlement types", factories.settlementTypes.getAll().length);
-    console.log("Number of shipwreck types", factories.shipwreckTypes.getAll().length);
-    console.log("Number of simple commodities", factories.simpleCommodities.getAll().length);
-    console.log("Number of simple materials", factories.simpleMaterials.getAll().length);
-    console.log("Number of states", factories.states.getAll().length);
-    console.log("Number of station types", factories.stationTypes.getAll().length);
-    console.log("Number of threat levels", factories.threatLevels.getAll().length);
-
-    console.log("Finished");
-})().catch(e => console.error(e));
+const stream = fs.createReadStream("data/factions.csv");
+const reader = readline.createInterface({ input: stream });
+await eddb.streamFactionsCSV(reader, faction => {
+    console.log(faction);
+});
 ```
+
+The `streamFactionsCSV` function calls the specified callback for each faction read from the given CSV file. It returns a promise which is resolved after the last faction has been read.
+
+Note that the callback can be asynchronous as well. If it returns a promise then CSV parsing is paused until this promise is resolved.
+
+There are also `streamPriceListingsCSV` and `streamSystemsCSV` functions to stream price listings and systems.
+
+If you don't want to stream the data and instead you want to read all data as an array, then use `readFactionsCSV`, `readPriceListingsCSV` and `readSystemsCSV` which simply asynchronously returns an array with the corresponding data.
+
+Working with JSONL files
+------------------------
+
+Streaming and reading JSONL files (like `factions.jsonl`, `attractions.jsonl`, `stations.jsonl` and `systems_populated.jsonl`) works exactly like streaming/reading CSV files. For this use the utility functions `streamFactionsJSONL`, `streamAttractionsJSONL`, `streamStationsJSONL`, `streamSystemsJSONL`, `readFactionsJSONL`, `readAttractionsJSONL`, `readStationsJSONL` and `readSystemsJSONL`).
+
+Other utility functions
+-----------------------
+
+### getModuleDisplayName(module)
+
+This function returns a unique display name for the given module. The resulting string may look like this:
+
+* 2A Prismatic Shield Generator
+* 2B Seismic Charge Launcher (Seeker, Turret)
+* 2C Plasma Accelerator (Fixed)
+* 3A AX Missile Rack (Dumbfire, Fixed)
+* 1I Military Grade Composite (Imperial Clipper)
+
+Known issues
+------------
+
+This library currently does not support bodies because EDDB doesn't export body data any longer.
+
+[EDDB]: https://eddb.io/api

@@ -1,0 +1,14 @@
+id,edsm_id,name,x,y,z,population,is_populated,government_id,government,allegiance_id,allegiance,security_id,security,primary_economy_id,primary_economy,power,power_state,power_state_id,needs_permit,updated_at,simbad_ref,controlling_minor_faction_id,controlling_minor_faction,reserve_type_id,reserve_type,ed_system_address
+432,12523,Achenar,67.5,-119.46875,24.84375,16380047759,1,144,Patronage,2,Empire,48,High,6,Refinery,"Arissa Lavigny-Duval",Exploited,32,1,1606530272,"HD 10144",12212,"Achenar Empire League",5,Depleted,164098653
+718,8218,Alioth,-33.65625,72.46875,-20.65625,14900071500,1,96,Democracy,1,Alliance,32,Medium,3,"High Tech","Edmund Mahon",Control,16,1,1606530049,Alioth,1082,"Alioth Independents",5,Depleted,1109989017963
+3023,8971,"CD-44 1695",67.875,-61.84375,-26.40625,5196795,1,96,Democracy,3,Federation,,,,,,Contested,48,1,1593336929,"CD-44 1695",38748,"Movement for CD-44 1695 Values Party",,,358864622282
+7176,,"HIP 23395",-7.34375,-20.0625,-130.71875,1288145124,1,64,Corporate,3,Federation,48,High,1,Agriculture,"Li Yong-Rui",Control,16,0,1606516872,,76107,"Sirius Special Forces",1,Pristine,1316147431771
+9924,15775,Ix,-65.21875,7.75,-111.03125,13814556,1,64,Corporate,3,Federation,32,Medium,3,"High Tech","Li Yong-Rui",Control,16,0,1606530332,,23613,"Ix Purple Comms Corp.",1,Pristine,2381282543963
+11611,18,Lave,75.75,48.75,70.75,25000000000,1,64,Corporate,4,Independent,32,Medium,1,Agriculture,"Edmund Mahon",Exploited,32,0,1606533304,,56909,"Lave Radio Network",4,Low,633742594786
+11969,4708,"LHS 2819",-30.5,38.5625,-13.4375,500,1,48,Confederacy,1,Alliance,16,Low,11,Colony,,,,0,1606532025,"LHS 2819",27536,"Terran Colonial Forces",,,7267487524257
+15069,72910,"Col 285 Sector YU-F c11-1",98.53125,-92.625,97.625,0,1,208,Prison,4,Independent,48,High,2,Extraction,,,,0,1606523378,,75876,"Independent Detention Foundation",,,358931698410
+16827,4345,"Shinrarta Dezhra",55.71875,17.59375,27.15625,85206935,1,96,Democracy,7,"Pilots Federation",48,High,3,"High Tech",,,,1,1606533205,,76748,"Pilots' Federation Local Branch",3,Common,3932277478106
+17072,27,Sol,0,0,0,22780871769,1,96,Democracy,3,Federation,48,High,6,Refinery,"Zachary Hudson",Control,16,1,1606533407,,592,"Mother Gaia",3,Common,10477373803
+17715,4607,Thraskias,46.71875,46.625,-1.65625,506933,1,64,Corporate,3,Federation,16,Low,9,Tourism,,,,0,1606533122,,45221,"Thraskias Crimson United PLC",,,908553392850
+18454,16714,Varati,-178.65625,77.125,-87.125,9067138,1,80,Cooperative,4,Independent,32,Medium,4,Industrial,,,,0,1606525431,,14271,Canonn,1,Pristine,1694071015779
+1998684,1418617,"HIP 22460",-41.3125,-58.96875,-354.78125,0,1,,,,,16,Low,10,None,,,,1,1506894523,,,,,,
