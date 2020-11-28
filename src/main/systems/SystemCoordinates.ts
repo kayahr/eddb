@@ -21,4 +21,8 @@ export class SystemCoordinates {
     public getZ(): number {
         return this.z;
     }
+
+    public getDistanceTo(other: SystemCoordinates): number {
+        return Math.sqrt((this.x - other.x) ** 2 + (this.y - other.y) ** 2 + (this.z - other.z) ** 2);
+    }
 }

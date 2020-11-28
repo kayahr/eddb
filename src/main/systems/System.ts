@@ -231,4 +231,8 @@ export class System extends NamedEntity {
     public getEdSystemAddress(): number | null {
         return this.edSystemAddress;
     }
+
+    public getDistanceTo(system: System): number {
+        return this.coordinates.getDistanceTo(system.getCoordinates());
+    }
 }
