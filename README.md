@@ -17,7 +17,7 @@ Then download the data dumps from EDDB and use this library to read them.
 Working with JSON files
 -----------------------
 
-JSON files (like `commodities.json` and `modules.json`) do not need any helper functions. Simply parse the JSON files and then cast it to the corresponding type provided by this library:
+JSON files (like `commodities.json` and `modules.json`) do not need any helper functions. Simply parse the JSON files and then cast the result to the corresponding type provided by this library:
 
 ```typescript
 import * as fs from "fs";
@@ -55,14 +55,14 @@ If you don't want to stream the data and instead you want to read all data as an
 Working with JSONL files
 ------------------------
 
-Streaming and reading JSONL files (like `factions.jsonl`, `attractions.jsonl`, `stations.jsonl` and `systems_populated.jsonl`) works exactly like streaming/reading CSV files. For this use the utility functions `streamFactionsJSONL`, `streamAttractionsJSONL`, `streamStationsJSONL`, `streamSystemsJSONL`, `readFactionsJSONL`, `readAttractionsJSONL`, `readStationsJSONL` and `readSystemsJSONL`).
+Streaming and reading JSONL files (like `factions.jsonl`, `attractions.jsonl`, `stations.jsonl` and `systems_populated.jsonl`) works exactly like streaming/reading CSV files. For this use the utility functions `streamFactionsJSONL`, `streamAttractionsJSONL`, `streamStationsJSONL`, `streamSystemsJSONL`, `readFactionsJSONL`, `readAttractionsJSONL`, `readStationsJSONL` and `readSystemsJSONL`.
 
 Other utility functions
 -----------------------
 
 ### getModuleDisplayName(module)
 
-This function returns a unique display name for the given module. The resulting string may look like this:
+This function returns a unique display name for the given module. The returned string may look like this:
 
 * 2A Prismatic Shield Generator
 * 2B Seismic Charge Launcher (Seeker, Turret)
