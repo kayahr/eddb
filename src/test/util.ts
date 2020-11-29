@@ -57,7 +57,6 @@ export function testJSON(validate: ajv.ValidateFunction, json: unknown): void {
     if (validate(json) === false) {
         const errors = validate.errors;
         if (errors != null) {
-            console.log(json);
             const jsonStr = JSON.stringify(json, undefined, 2);
             const errorStr = JSON.stringify(errors, undefined, 2);
             fail(new Error(`Expected JSON to match schema:\n\n${jsonStr}\n\nBut failed:\n\n${errorStr}`));
