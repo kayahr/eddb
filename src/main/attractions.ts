@@ -91,7 +91,7 @@ export function streamAttractionsJSONL(input: AsyncIterable<string>,
 }
 
 /**
- * Reads all attractions from the given JSONL input and returns them as an array. Use [[readAttractionsJSONL]] if
+ * Reads all attractions from the given JSONL input and returns them as an array. Use [[streamAttractionsJSONL]] if
  * you want to stream the attractions to a callback function instead of getting a huge array.
  *
  * @param input - The JSONL input as an async iterable.

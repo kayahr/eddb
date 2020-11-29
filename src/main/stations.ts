@@ -67,7 +67,7 @@ export function streamStationsJSONL(input: AsyncIterable<string>,
 }
 
 /**
- * Reads all stations from the given JSONL input and returns them as an array. Use [[readStationsJSONL]] if
+ * Reads all stations from the given JSONL input and returns them as an array. Use [[streamStationsJSONL]] if
  * you want to stream the stations to a callback function instead of getting a huge array.
  *
  * @param input - The JSONL input as an async iterable.

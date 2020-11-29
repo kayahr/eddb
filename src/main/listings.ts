@@ -37,7 +37,7 @@ export function streamPriceListingsCSV(input: AsyncIterable<string>,
 }
 
 /**
- * Reads all price listings from the given CSV input and returns them as an array. Use [[readPriceListingsCSV]] if
+ * Reads all price listings from the given CSV input and returns them as an array. Use [[streamPriceListingsCSV]] if
  * you want to stream the price listings to a callback function instead of getting a huge array.
  *
  * @param input - The CSV input as an async iterable.

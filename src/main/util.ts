@@ -70,7 +70,7 @@ export async function streamCSV<T>(input: AsyncIterable<string>, callback: (row:
  *                   function waits for the promise to be resolved before continuing with the next dataset.
  * @return Promise resolved when JSONL input has been fully read. Rejected when reading fails.
  */
-export async function streamJSONL<T>(input: AsyncIterable<string>, callback: (faction: T) => Promise<void> | void):
+export async function streamJSONL<T>(input: AsyncIterable<string>, callback: (row: T) => Promise<void> | void):
         Promise<void> {
     for await (const line of input) {
         const promise = callback(JSON.parse(line) as T);

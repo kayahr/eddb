@@ -36,7 +36,7 @@ export function streamFactionsCSV(input: AsyncIterable<string>, callback: (listi
 }
 
 /**
- * Reads all factions from the given CSV input and returns them as an array. Use [[readFactionsCSV]] if
+ * Reads all factions from the given CSV input and returns them as an array. Use [[streamFactionsCSV]] if
  * you want to stream the factions to a callback function instead of getting a huge array.
  *
  * @param input - The CSV input as an async iterable.
@@ -63,7 +63,7 @@ export function streamFactionsJSONL(input: AsyncIterable<string>, callback: (fac
 }
 
 /**
- * Reads all factions from the given JSONL input and returns them as an array. Use [[readFactionsJSONL]] if
+ * Reads all factions from the given JSONL input and returns them as an array. Use [[streamFactionsJSONL]] if
  * you want to stream the factions to a callback function instead of getting a huge array.
  *
  * @param input - The JSONL input as an async iterable.

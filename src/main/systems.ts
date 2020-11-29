@@ -67,7 +67,7 @@ export function streamSystemsCSV(input: AsyncIterable<string>, callback: (system
 }
 
 /**
- * Reads all systems from the given CSV input and returns them as an array. Use [[readSystemsCSV]] if
+ * Reads all systems from the given CSV input and returns them as an array. Use [[streamSystemsCSV]] if
  * you want to stream the systems to a callback function instead of getting a huge array.
  *
  * @param input - The CSV input as an async iterable.
@@ -94,7 +94,7 @@ export function streamSystemsJSONL(input: AsyncIterable<string>,
 }
 
 /**
- * Reads all systems from the given JSONL input and returns them as an array. Use [[readSystemsJSONL]] if
+ * Reads all systems from the given JSONL input and returns them as an array. Use [[streamSystemsJSONL]] if
  * you want to stream the systems to a callback function instead of getting a huge array.
  *
  * @param input - The JSONL input as an async iterable.
