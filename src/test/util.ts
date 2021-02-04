@@ -1,4 +1,4 @@
-import * as ajv from "ajv";
+import ajv, { ValidateFunction } from "ajv";
 import * as fs from "fs";
 import * as path from "path";
 import { createGenerator } from "ts-json-schema-generator/dist/factory/generator";
@@ -26,7 +26,7 @@ function getLatestLastModified(files: string[]): number {
     return latestLastModified;
 }
 
-export function createValidator(schemaName: string, typeName: string, sourceFiles: string[]): ajv.ValidateFunction {
+export function createValidator(schemaName: string, typeName: string, sourceFiles: string[]): ValidateFunction {
     const schemaFile = path.join(baseDir, `lib/test/${schemaName}.schema.json`);
 
     // Generate the test JSON schema if not already up-to-date
@@ -53,8 +53,8 @@ export function createValidator(schemaName: string, typeName: string, sourceFile
     return new ajv({ allErrors: true }).compile(schemaJSON);
 }
 
-export function testJSON(validate: ajv.ValidateFunction, json: unknown): void {
-    if (validate(json) === false) {
+export function testJSON(validate: ValidateFunction, json: unknown): void {
+    if (!validate(json)) {
         const errors = validate.errors;
         if (errors != null) {
             const jsonStr = JSON.stringify(json, undefined, 2);
@@ -64,7 +64,7 @@ export function testJSON(validate: ajv.ValidateFunction, json: unknown): void {
     }
 }
 
-export function testJSONFile(validate: ajv.ValidateFunction, jsonFile: string): void {
+export function testJSONFile(validate: ValidateFunction, jsonFile: string): void {
     testJSON(validate, JSON.parse(fs.readFileSync(jsonFile).toString()));
 }
 
