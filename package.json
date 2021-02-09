@@ -37,6 +37,11 @@
     "funding": {
         "url": "https://github.com/kayahr/eddb?sponsor=1"
     },
+    "engines": {
+        "yarn": "\n\n!!! Use NPM !!!\n\n",
+        "node": ">=14.0.0",
+        "npm": ">=7.5.0"
+    },
     "jest": {
         "projects": [
             {
